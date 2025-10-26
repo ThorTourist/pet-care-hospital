@@ -1,4 +1,5 @@
 import React from 'react';
+import HeroSlider from '../../Components/heroSlides';
 
 
 
@@ -6,8 +7,8 @@ import React from 'react';
 const Home = () => {
     return (
       <div>
-        <h1>Home keeper</h1>
-      
+
+      <HeroSlider></HeroSlider>
       </div>
     );
 };
