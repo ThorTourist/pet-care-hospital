@@ -4,27 +4,27 @@
     "name": "Dr. Farhana Rahman",
     "specialty": "Veterinary Surgeon",
     "experience": "10 years",
-    "image": "https://i.ibb.co/ZVhVvK8/vet1.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKxwtZMbJAocT6ieiEto0Dmm5MmDAIFQTOaQ&s"
   },
   {
     "id": 2,
     "name": "Dr. Mahmud Hasan",
     "specialty": "Animal Nutritionist",
     "experience": "8 years",
-    "image": "https://i.ibb.co/sHkGmFm/vet2.jpg"
+    "image": "https://apbbd.org/wp-content/uploads/2020/04/Prof.-Md.-Mahmud-Hasan.jpg"
   },
   {
     "id": 3,
     "name": "Dr. Nusrat Jahan",
     "specialty": "Pet Behavior Specialist",
     "experience": "6 years",
-    "image": "https://i.ibb.co/fx3pMhQ/vet3.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvywFsKpsXA3Y7D-CpzrPEkqxGYuP1D9EI_w&s"
   },
   {
     "id": 4,
     "name": "Dr. Rakibul Islam",
     "specialty": "Veterinary Cardiologist",
     "experience": "9 years",
-    "image": "https://i.ibb.co/Zc5hKDp/vet4.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxNVxD27ZHs213_ebcO4aSRvD1_zsYFUrLzA&s"
   }
 ]

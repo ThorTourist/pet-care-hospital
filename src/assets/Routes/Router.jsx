@@ -11,6 +11,7 @@ import SignUp from "../../Pages/SignUp/SignUp";
 import ProtectedRoute from "../../Components/ProtectedRoute";
 import ServiceDetails from "../../Pages/ServiceDetails/ServiceDetails";
 import ErrorPage from "../../Components/ErrorPage/ErrorPage";
+import ForgotPassword from "../../Pages/ForgotPassword/ForgotPassword";
 
 
 
@@ -59,6 +60,10 @@ export const router = createBrowserRouter([
       {
         path: "/signup",
         element: <SignUp />,
+      },
+      {
+        path: "/forgot-password",
+        element: <ForgotPassword />,
       },
     ],
   },

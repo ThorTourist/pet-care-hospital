@@ -35,9 +35,11 @@ const HeroSlider = () => {
             alt={slide.title}
             className="w-full h-[500px] object-cover brightness-90"
           />
-          <div className="absolute flex flex-col justify-center items-start h-full left-10 top-0 text-white">
-            <h2 className="text-4xl font-bold mb-3">{slide.title}</h2>
-            <p className="mb-5 text-lg">{slide.desc}</p>
+          <div className="absolute flex flex-col justify-center items-center h-full left-10 top-45 text-white">
+            <h2 className="text-xl text-blue-500 font-bold mb-0">
+              {slide.title}
+            </h2>
+            <p className="mb-5 text-sm text-yellow-500">{slide.desc}</p>
             <button className="btn btn-primary">Shop Now</button>
           </div>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

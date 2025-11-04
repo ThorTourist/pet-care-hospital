@@ -7,14 +7,14 @@ import {
 } from "firebase/auth";
 import { useNavigate, Link } from "react-router-dom";
 import { toast } from "react-toastify";
-import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai"; // 👁️ icons
+import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai"; //  icons
 
 const SignUp = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [photo, setPhoto] = useState("");
   const [password, setPassword] = useState("");
-  const [showPassword, setShowPassword] = useState(false); // 👁️ toggle state
+  const [showPassword, setShowPassword] = useState(false); //  toggle state
   const navigate = useNavigate();
 
   const validatePassword = (pwd) =>
@@ -88,7 +88,7 @@ const SignUp = () => {
           onChange={(e) => setPhoto(e.target.value)}
         />
 
-        {/* 👁️ Password field with show/hide toggle */}
+        {/*  Password field with show/hide toggle */}
         <div className="relative">
           <input
             type={showPassword ? "text" : "password"}

@@ -72,12 +72,14 @@ const Login = () => {
           </button>
         </div>
 
-        <Link
-          to="/forgot-password"
-          className="text-sm text-blue-600 hover:underline"
-        >
-          Forgot Password?
-        </Link>
+        
+
+        <p className="mt-2 text-sm text-center">
+          Forgot your password?{" "}
+          <Link to="/forgot-password" className="text-blue-600 hover:underline">
+            Reset here
+          </Link>
+        </p>
 
         <button type="submit" className="btn btn-primary w-full mt-2">
           Login

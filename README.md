@@ -1,16 +1,61 @@
-# React + Vite
+# Pet Care Hospital
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live Demo](https://your-live-url-here.com)  
 
-Currently, two official plugins are available:
+A cozy winter companion platform designed for pet owners to ensure their furry friends stay warm, safe, and healthy during the cold season. Users can explore local pet care services, winter pet clothing, grooming options, and expert tips — all in one friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Project Purpose
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project aims to provide a user-friendly single-page application (SPA) for pet owners to:  
+- Discover winter care services for pets  
+- Book grooming, clothing, and health services  
+- Connect with expert vets  
+- Access winter care tips for pets  
+- Manage their profile and authentication securely  
 
-## Expanding the ESLint configuration
+The app ensures responsive design across mobile, tablet, and desktop.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Key Features
+
+- **Authentication**:  
+  - Sign Up / Login with email/password  
+  - Google login integration  
+  - Forgot password functionality
+- **Protected Routes**:  
+  - Service details and My Profile pages only accessible to logged-in users
+- **Profile Management**:  
+  - Update display name and photo
+- **Service Listings**:  
+  - Dynamic cards showing winter care services from JSON data
+- **Booking Form**:  
+  - Simple “Book Service” form with success notification
+- **Extras**:  
+  - Winter care tips section  
+  - Meet our expert vets section  
+- **SPA Behavior**:  
+  - No reload errors on route navigation  
+  - Persistent Navbar and Footer
+- **Responsive Design**:  
+  - Fully optimized for mobile, tablet, and desktop
+
+---
+
+## Technologies & Packages Used
+
+- **React.js**  
+- **Firebase** (Authentication)  
+- **React Router v6**  
+- **Tailwind CSS**  
+- **React Toastify** (Notifications)  
+- **Swiper.js** (Hero Slider)  
+- **AOS** (Scroll animations)  
+- **React Icons**  
+
+---
+
+## Project Structure
+
